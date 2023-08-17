@@ -44,7 +44,7 @@ class PresentationCard extends StatelessWidget {
               const CircleAvatar(
                 radius: 60.0,
                 backgroundImage: NetworkImage(
-                    'https://example.com/your_image.jpg'), // Replace with your image URL
+                    'https://www.instagram.com/p/Cp8-TFELo8YMoT_vyyx34DRkn-BoJcD_zb_x3w0/'), //image URL
               ),
               const SizedBox(height: 10.0),
               const Text(
@@ -73,7 +73,7 @@ class PresentationCard extends StatelessWidget {
                     onPressed: () {
                       // Open GitHub link
                       _launchURL(
-                          'https://github.com/MarcosN7'); // Replace with your GitHub profile URL
+                          'https://github.com/MarcosN7'); //  GitHub profile URL
                     },
                   ),
                   const SizedBox(width: 20.0),
@@ -83,7 +83,7 @@ class PresentationCard extends StatelessWidget {
                     onPressed: () {
                       // Open LinkedIn link
                       _launchURL(
-                          'https://www.linkedin.com/in/marcosb67/'); // Replace with your LinkedIn profile URL
+                          'https://www.linkedin.com/in/marcosb67/'); //LinkedIn profile URL
                     },
                   ),
                 ],
